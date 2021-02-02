@@ -2,7 +2,7 @@
  * Name as used as title for the main page
  * @type {string}
  */
-var title = 'SurVis Literature Collection';
+var title = 'Scalar Field Comparison with Topological Descriptors';
 
 /**
  * Relative path to the data directory
@@ -33,13 +33,21 @@ var tagCloudOptions = [{
     field: 'keywords',
     title: 'Keywords',
     minTagFrequency: 1
-}, {
+},/* {
     field: 'author',
     title: 'Authors',
+    minTagFrequency: 1
+},*/ {
+    field: 'publisher',
+    title: 'Publisher',
     minTagFrequency: 1
 }, {
     field: 'series',
     title: 'Series',
+    minTagFrequency: 1
+}, {
+    field: 'year',
+    title: 'Year',
     minTagFrequency: 1
 }];
 
@@ -47,14 +55,14 @@ var tagCloudOptions = [{
  * If BibTeX entries (and tags) should be editable
  * @type {boolean}
  */
-var editable = true;
+var editable = false;
 
 /**
  * Subtitle describing the paper the data is referring to (set to null to deactivate)
  * @type {{html: string, id: string}}
  */
 var paper = {
-    html: 'Sample literature collection for <b><a href="http://www.visus.uni-stuttgart.de/uploads/tx_vispublications/eurovis14-star.pdf" target="_blank">SurVis</a></b>',
+    html: 'Literature collection for <b><a href="http://www.visus.uni-stuttgart.de/uploads/tx_vispublications/eurovis14-star.pdf" target="_blank">SurVis</a></b>',
     id: 'Beck2016Visual'
 };
 

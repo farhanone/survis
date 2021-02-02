@@ -1,5 +1,9 @@
 const userDefinedAuthorizedTags = {
-	"type:system": {
+/*	"type:system": {
 		"description": "paper describing a system"
 	}
+*/	
 }
+
+
+
