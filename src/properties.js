@@ -33,6 +33,10 @@ var tagCloudOptions = [{
     field: 'keywords',
     title: 'Keywords',
     minTagFrequency: 1
+},  {
+    field: 'software',
+    title: 'software',
+    minTagFrequency: 1
 },/* {
     field: 'author',
     title: 'Authors',
@@ -41,11 +45,7 @@ var tagCloudOptions = [{
     field: 'publisher',
     title: 'Publisher',
     minTagFrequency: 1
-}, {
-    field: 'series',
-    title: 'Series',
-    minTagFrequency: 1
-}, {
+},  {
     field: 'year',
     title: 'Year',
     minTagFrequency: 1
