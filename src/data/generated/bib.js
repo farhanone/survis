@@ -680,7 +680,7 @@
         "date-modified": "2021-02-05 09:39:05 +0100",
         "howpublished": "\\url{https://github.com/harishd10/contour-tree}",
         "keywords": "topological_descriptors:contour trees, comparative_measures:other, visualization_tasks:other, visualization_subtasks:other, applications:other",
-        "software": "contour-tree",
+        "software": "ContourTree",
         "title": "{Topological Data Analysis using Contour Trees (contour-tree)}",
         "type": "misc",
         "year": "2021"
@@ -845,7 +845,7 @@
         "date-modified": "2021-02-05 09:39:05 +0100",
         "howpublished": "\\url{https://rdrr.io/cran/TDA/}",
         "keywords": "topological_descriptors:persistence diagram, topological_descriptors:persistence landscapes, comparative_measures:bottleneck distance, comparative_measures:Wasserstein distance, visualization_tasks:other, visualization_subtasks:other, applications:other",
-        "software": "R-TDA",
+        "software": "R_TDA",
         "title": "{R-TDA}",
         "type": "misc",
         "year": "2021"
@@ -1577,7 +1577,7 @@
         "journal": "EPJ Data Science",
         "pages": "1--38",
         "publisher": "Springer",
-        "software": "PH-roadmap",
+        "software": "PH_roadmap",
         "title": "A roadmap for the computation of persistent homology",
         "type": "article",
         "volume": "6",
